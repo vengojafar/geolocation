@@ -11,7 +11,7 @@
 [Dd]ebugPublic/
 [Rr]elease/
 x64/
-build/
+#build/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -39,7 +39,7 @@ dlldata.c
 *.meta
 *.obj
 *.pch
-*.pdb
+#*.pdb
 *.pgc
 *.pgd
 *.rsp
@@ -129,10 +129,10 @@ publish/
 #*.pubxml
 
 # NuGet Packages Directory
-packages/*
+# packages/*
 ## TODO: If the tool you use requires repositories.config
 ## uncomment the next line
-#!packages/repositories.config
+!packages/repositories.config
 
 # Enable "build/" folder in the NuGet Packages folder since
 # NuGet packages use it for MSBuild targets.
@@ -172,8 +172,8 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 
 # SQL Server files
-*.mdf
-*.ldf
+#*.mdf
+#*.ldf
 
 # Business Intelligence projects
 *.rdl.data
